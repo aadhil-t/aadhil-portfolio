@@ -1,0 +1,13 @@
+node_modules/
+dist/
+.env
+.env.*
+!.env.example
+*.tsbuildinfo
+.DS_Store
+Thumbs.db
+
+# Generated files that shadow the TypeScript/SCSS sources.
+src/App.js
+src/main.js
+src/styles/main.css
