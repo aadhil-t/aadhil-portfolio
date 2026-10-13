@@ -184,7 +184,7 @@ export default function App() {
           </div>
         </section>
       </main>
-      <footer className="footer section-pad"><a className="brand" href="#home">A<span>.</span>T</a><span>DESIGNED & BUILT WITH INTENTION.</span><a className="back-top" href="#home">BACK TO TOP <ArrowUp size={14} /></a><span className="copyright">© {new Date().getFullYear()} AADHIL T.</span></footer>
+      <footer className="footer section-pad"><a className="brand" href="#home">AD</a><span>DESIGNED & BUILT WITH INTENTION.</span><a className="back-top" href="#home">BACK TO TOP <ArrowUp size={14} /></a><span className="copyright">© {new Date().getFullYear()} AADHIL T.</span></footer>
     </div>
   );
 }

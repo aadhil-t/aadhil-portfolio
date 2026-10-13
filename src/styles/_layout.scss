@@ -2,8 +2,7 @@
 
 .site-shell { overflow: clip; }
 .navbar { position: absolute; z-index: 20; top: 0; left: 0; width: 100%; display: flex; align-items: center; justify-content: space-between; padding: 26px $gutter; border-bottom: 1px solid rgba(243,242,237,.09); }
-.brand { display: inline-flex; align-items: baseline; font: 700 26px/1 $font-display; letter-spacing: -.09em; }
-.brand span { color: $lime; }
+.brand { display: inline-flex; align-items: baseline; color: $text; font: 900 32px/1 "Arial Black", $font-display; letter-spacing: -.12em; }
 .nav-links { display: flex; align-items: center; gap: clamp(20px, 3vw, 44px); }
 .nav-links > a { color: #b3b4ae; font-size: 15px; transition: color .2s ease; }
 .nav-links > a:hover { color: $lime; }

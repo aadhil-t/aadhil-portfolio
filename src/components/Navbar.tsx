@@ -16,7 +16,7 @@ export default function Navbar() {
   return (
     <header className="navbar">
       <a className="brand" href="#home" onClick={closeMenu} aria-label="Aadhil T home">
-        A<span>.</span>T
+        AD
       </a>
       <nav className={`nav-links ${open ? 'is-open' : ''}`} aria-label="Main navigation">
         {links.map((link) => (
